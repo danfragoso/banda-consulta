@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/danfragoso/Bandas/src/java/bandas/dao/ArtistaDAOSQL.java</file>
+            <file>file:/Users/danfragoso/Bandas/web/WEB-INF/index.html</file>
+            <file>file:/Users/danfragoso/Bandas/web/index.xhtml</file>
+            <file>file:/Users/danfragoso/Bandas/web/cadastrar.xhtml</file>
+            <file>file:/Users/danfragoso/Bandas/web/cadastraArtistaSucesso.xhtml</file>
+            <file>file:/Users/danfragoso/Bandas/web/oldindex.xhtml</file>
+            <file>file:/Users/danfragoso/Bandas/web/indexx.xhtml</file>
+            <file>file:/Users/danfragoso/Bandas/web/cadastraAlbumSucesso.xhtml</file>
+            <file>file:/Users/danfragoso/Bandas/src/java/bandas/dao/AlbumDAO.java</file>
+            <file>file:/Users/danfragoso/Bandas/web/consultaArtistaFalha.xhtml</file>
+            <file>file:/Users/danfragoso/Bandas/web/sobre.html</file>
+            <file>file:/Users/danfragoso/Bandas/web/cadastraArtistaFalha.xhtml</file>
+            <file>file:/Users/danfragoso/Bandas/src/java/bandas/dao/AlbumDAOSQL.java</file>
+            <file>file:/Users/danfragoso/Bandas/src/java/bandas/logica/Album.java</file>
+            <file>file:/Users/danfragoso/Bandas/web/WEB-INF/web.xml</file>
+            <file>file:/Users/danfragoso/Bandas/src/java/bandas/dao/ConnectionFactory.java</file>
+            <file>file:/Users/danfragoso/Bandas/web/consultaAlbumSucesso.xhtml</file>
+            <file>file:/Users/danfragoso/Bandas/src/java/bandas/logica/Artista.java</file>
+            <file>file:/Users/danfragoso/Bandas/src/java/bandas/dao/ArtistaDAO.java</file>
+            <file>file:/Users/danfragoso/Bandas/web/consultaArtistaSucesso.xhtml</file>
+            <file>file:/Users/danfragoso/Bandas/web/cadastraAlbumFalha.xhtml</file>
+            <file>file:/Users/danfragoso/Bandas/src/java/bandas/logica/Bandas.java</file>
+            <file>file:/Users/danfragoso/Bandas/nbproject/build-impl.xml</file>
+            <file>file:/Users/danfragoso/Bandas/web/consultaAlbumFalha.xhtml</file>
+            <file>file:/Users/danfragoso/Bandas/web/teste.css</file>
+        </group>
+    </open-files>
+</project-private>

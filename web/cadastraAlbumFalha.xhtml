@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html">
+    <head>
+        <title>Bandas - Resultado do Cadastro de Album</title>
+                 <link rel="stylesheet" href="teste.css" />
+
+    </head>
+    <body>
+         <ul>
+                <li><a class="active" href="#">Consultar</a></li>
+                <li><a href="faces/cadastrar.xhtml">Cadastrar</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+               </ul>
+        
+        <h3>
+            Falha ao cadastrar album.
+        </h3>
+        Título <i>"<h:outputText value="#{Album.titulo}"/>"</i> já existe
+        ou autor <i>"<h:outputText value="#{Album.nomeArtista}"/>"</i> ainda não cadastrado. <br/>
+        <img src="imagens/fail.png" alt="Falha ao cadastrar album."/>
+        <h:form>
+            <h:commandButton id="backButton" value="Back" action="index"/>
+        </h:form>
+    </body>
+</html>

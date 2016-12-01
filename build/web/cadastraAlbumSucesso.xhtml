@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html">
+    <head>
+        <title>Bandas - Resultado do Cadastro de Album</title>
+                 <link rel="stylesheet" href="teste.css" />
+
+    </head>
+    <body>
+         <ul>
+                <li><a class="active" href="#">Consultar</a></li>
+                <li><a href="faces/cadastrar.xhtml">Cadastrar</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+               </ul>
+        
+        <h3>
+            Album "<h:outputText value="#{Album.titulo}"/>" cadastrado com sucesso.
+        </h3>
+         <img style=" height: 384px; width: 384px" src="#{Album.capa}"  alt="Capa" />
+
+            Preço: R$<h:outputText value="#{Album.preco}"/> <br/>
+            Artista: <h:outputText value="#{Album.nomeArtista}"/> <br/>
+        
+        <img src="imagens/ok.png" alt="Album cadastrado."/>
+        <h:form>
+            <h:commandButton id="backButton" value="Back" action="index"/>
+        </h:form>      
+    </body>
+</html>

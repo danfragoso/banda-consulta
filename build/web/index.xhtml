@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+  
+    
+    <h:head>
+        <title>Bandas</title>
+         <link rel="stylesheet" href="teste.css" />
+         <script language="Javascript">
+function hideA()
+{
+
+    document.getElementById("A").style.visibility="hidden";
+    document.getElementById("B").style.visibility="visible";    
+
+}
+
+function hideB()
+{
+    document.getElementById("B").style.visibility="hidden";
+    document.getElementById("A").style.visibility="visible";
+
+}
+</script>
+
+    </h:head>
+    <h:body> 
+          <div id="div-centro">
+            
+              <ul>
+                <li><a class="active" href="#">Consultar</a></li>
+                <li><a href="faces/cadastrar.xhtml">Cadastrar</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+               </ul>
+              
+              
+              <h1/>
+        <img src="imagens/logo.png" alt="logo."/>
+
+        <h1/>
+        Album <input required="required" type="radio"  name="aorb" onClick="hideB()" checked="checked"/> 
+        Artista <input required="required" type="radio"  name="aorb" onClick="hideA()"/> 
+        <h1/>
+        
+
+              <div class="tbox" id="A">
+                   <h:form> 
+                    <h:inputText style="height:35px; width: 600px; font-size:16pt;" id="titulo" value="#{Album.titulo}"/>
+                    <h:commandButton styleClass="ir" value="ir" action="#{Album.buscar}" />
+                     </h:form> 
+              </div>
+              
+              <div class="tbox1" id="B"> 
+                  <h:form>
+                     <h:inputText style="height:35px; width: 600px; font-size:16pt;"  id="nomeArtista" value="#{Artista.nomeArtista}"/>
+                     <h:commandButton styleClass="ir" value="ir" action="#{Artista.buscar}" />
+                    </h:form> 
+              </div>
+        
+        
+        </div>
+    </h:body>   
+</html>
+

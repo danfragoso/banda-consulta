@@ -1,0 +1,94 @@
+body {
+    background-image: url("imagens/bg.png");
+    background-position: center; 
+   
+    
+}
+
+#div-centro {
+     margin: 0 auto;
+     text-align: center;  
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+.tbox1{
+    position: absolute; 
+    margin-left: auto; 
+    margin-right: auto; 
+    left: 0; 
+    right: 0; 
+    visibility:hidden
+}
+
+.tbox1 .ir {
+                position:relative;
+                padding:12px 15px;
+                top: -4px;
+                left:-45px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+
+.tbox {
+    position: absolute; 
+    margin-left: auto; 
+    margin-right: auto; 
+    left: 0; 
+    right: 0;
+}
+
+
+.select .ir2 {
+                position:relative;
+                padding:12px 15px;
+                top: -4px;
+                left:-45px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.tbox .ir {
+                position:relative;
+                padding:12px 15px;
+                top: -4px;
+                left:-45px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.tbox .ir:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #015297;
+}
+
+.active {
+    background-color: #207cca;
+}
+
+.caixa { width: 90px; height: 390px; border: 1px solid #999999; padding: 5px; }

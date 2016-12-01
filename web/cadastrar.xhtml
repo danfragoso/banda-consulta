@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+  
+    
+    <h:head>
+        <title>Bandas</title>
+         <link rel="stylesheet" href="teste.css" />
+
+    </h:head>
+    <h:body> 
+        
+          <div id="div-centro">
+            
+              <ul>
+                <li><a href="faces/index.xhtml">Consultar</a></li>
+                <li><a class="active" href="#">Cadastrar</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+               </ul>
+                      <h1/>
+      
+        <img src="imagens/logo.png" alt="logo."/>
+        <h:form>
+                <h2>Cadastro Artista</h2>        
+                Informe o nome do artista: 
+                  <h:inputText id="nomeArtistas" value="#{Artista.nomeArtista}"/> <br/>
+                Informe a cidade do artista: 
+                  <h:inputText id="cidade" value="#{Artista.cidade}"/> <br/>
+                <h:commandButton id="submit" value="submit" 
+                                 action="#{Artista.registrar}" />
+        </h:form>     
+
+        <h:form>
+                <h2>Cadastro Album</h2>        
+                Informe o título do album: 
+                    <h:inputText id="titulo" value="#{Album.titulo}"/> <br/>
+                Informe o caminho da capa: 
+                    <h:inputText id="capa" value="#{Album.capa}"/> <br/>
+                Informe o nome do artista: 
+                    <h:inputText id="nomeArtista" value="#{Album.nomeArtista}"/> <br/>                    
+                Informe o preço: 
+                    <h:inputText id="preco" value="#{Album.preco}"/> <br/>
+                <h:commandButton id="submit" value="submit" 
+                                 action="#{Album.registrar}" />
+        </h:form> 
+        </div>
+    </h:body>   
+</html>
+
